@@ -24,7 +24,7 @@ from tensorforce.core.optimizers import Optimizer
 tensorflow_optimizers = dict(
     adadelta=tf.keras.optimizers.Adadelta,
     adagrad=tf.keras.optimizers.Adagrad,
-    adam=tf.keras.optimizers.Adam,
+    adam=tf.keras.optimizers.legacy.Adam,
     adamax=tf.keras.optimizers.Adamax,
     ftrl=tf.keras.optimizers.Ftrl,
     nadam=tf.keras.optimizers.Nadam,
